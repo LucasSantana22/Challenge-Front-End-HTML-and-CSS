@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(29, 53%, 90%);
+  font-family: "Young Serif";
+}
+
+.main {
+  border-radius: 15px;
+  margin: 100px 400px;
+  text-align: justify;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.main-img img {
+  height: auto;
+  width: 600px;
+  margin-left: 50px;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+.main-txt-1,
+.main-txt-2,
+.main-txt-3,
+.main-txt-4,
+.main-txt-5 {
+  margin: 10px 48px;
+}
+
+strong {
+  color: hsl(30, 10%, 34%);
+}
+
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+
+p,
+li {
+  color: hsl(30, 10%, 34%);
+  font-family: "Outfit";
+}
+
+h3 {
+  color: hsl(332, 51%, 32%);
+}
+
+ul li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+ol li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+ul li,
+ol li {
+  padding-left: 10px;
+}
+.main-txt-2 {
+  background-color: hsl(322, 100%, 98%);
+  border-radius: 15px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+}
+
+p span {
+  padding-left: 450px;
+}
+
+.grama {
+  color: hsl(332, 51%, 32%);
+}
+
+.nutrition {
+  color: hsl(30, 10%, 34%);
+  display: flex 
+  flex-direction: column;
+  gap: 10px; } /* Espaço de uma linha para outra */
+
+.nutrition div {
+  display: flex;
+  justify-content: space-between; /* Espaçamento entre os textos */
+  width: 500px;
+padding-bottom: 15px; /* Ajuste o valor conforme necessário */
+padding-left: 50px;
+}
+
+footer div {
+  text-align: center;
+  margin: -100px;
+}
